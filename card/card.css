@@ -44,6 +44,11 @@
     background-color: #000;
 }
 
+.card-button2:hover {
+    color: #dcdcdc;
+    background-color: #000;
+}
+
 .img {
     padding: .3rem;
 }
