@@ -49,6 +49,16 @@
     background-color: #000;
 }
 
+.card-button:active {
+    color: #dcdcdc;
+    background-color: #5a5a5a;
+}
+
+.card-button2:active {
+    color: #dcdcdc;
+    background-color: #5a5a5a;
+}
+
 .img {
     padding: .3rem;
 }

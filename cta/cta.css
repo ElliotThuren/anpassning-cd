@@ -47,3 +47,8 @@
     color: #dcdcdc;
     background-color: #000;
 }
+
+.cta-right > button:active {
+    color: #dcdcdc;
+    background-color: #5a5a5a;
+}
