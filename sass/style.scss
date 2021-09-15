@@ -1,0 +1,36 @@
+$primary: #ffffff;
+
+$breakpoint-lg: 48rem;
+$breakpont-md: $breakpoint-lg / 2;
+$breakpont-sm: $breakpont-md / 2;
+
+$font-family: "Comic Sans";
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: $primary;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@import "utilities/container";
+
+@import "components/card";
+
+@import "components/footer";
+
+@import "components/cta";
+
+@import "components/nav";

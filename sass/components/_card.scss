@@ -1,0 +1,66 @@
+.card {
+    position: relative;
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+    background-color: rgba(57, 240, 139, 0.8);
+button {
+        width: 97%;
+        margin: .3rem;
+    &:hover {
+        color: #dcdcdc;
+        background-color: #000;
+      }
+    &:active {
+        color: #dcdcdc;
+        background-color: #5a5a5a;
+      }
+    }
+}
+
+.card3 {
+    position: relative;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(136, 57, 240, 0.8);
+    margin-top: .3rem;
+button {
+        width: 758px;
+        margin: .3rem;
+    &:hover {
+        color: #dcdcdc;
+        background-color: #000;
+      }
+    &:active {
+        color: #dcdcdc;
+        background-color: #5a5a5a;
+      }
+    }
+}
+
+.card-text {
+    padding: .4rem;
+    height: 95%;
+    width: 95%;
+}
+
+.img {
+    padding: .3rem;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .3rem;
+}
+
+@media screen and (max-width: 24rem) {
+        .card-group {
+            flex-direction: column;
+        }
+
+        .card {
+            width: 100%;
+        }
+}

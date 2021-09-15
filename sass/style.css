@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card {
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  width: 45%;
+  background-color: rgba(57, 240, 139, 0.8);
+}
+.card button {
+  width: 97%;
+  margin: 0.3rem;
+}
+.card button:hover {
+  color: #dcdcdc;
+  background-color: #000;
+}
+.card button:active {
+  color: #dcdcdc;
+  background-color: #5a5a5a;
+}
+
+.card3 {
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(136, 57, 240, 0.8);
+  margin-top: 0.3rem;
+}
+.card3 button {
+  width: 758px;
+  margin: 0.3rem;
+}
+.card3 button:hover {
+  color: #dcdcdc;
+  background-color: #000;
+}
+.card3 button:active {
+  color: #dcdcdc;
+  background-color: #5a5a5a;
+}
+
+.card-text {
+  padding: 0.4rem;
+  height: 95%;
+  width: 95%;
+}
+
+.img {
+  padding: 0.3rem;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.3rem;
+}
+
+@media screen and (max-width: 24rem) {
+  .card-group {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+  margin-top: 0.3rem;
+  background-color: #f1f1f1;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.cta {
+  position: relative;
+  background-image: url(images/TE19.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: 0.3rem;
+  z-index: 0;
+}
+
+.cta-right {
+  text-align: right;
+  z-index: 10;
+  padding: 1rem;
+}
+
+.cta > h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.cta-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(220, 220, 220, 0.6);
+  z-index: -1;
+}
+
+.cta-right > p {
+  font-size: 2rem;
+}
+
+.cta-right > button {
+  font-size: 2rem;
+  padding: 0.8rem;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cta-right > button:hover {
+  color: #dcdcdc;
+  background-color: #000;
+}
+
+.cta-right > button:active {
+  color: #dcdcdc;
+  background-color: #5a5a5a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar {
+  min-height: 3rem;
+  background-color: #ffa8e9;
+  font-size: 1.6rem;
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 24rem) {
+  .navbar-inner, .nav {
+    flex-direction: column-count;
+  }
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
