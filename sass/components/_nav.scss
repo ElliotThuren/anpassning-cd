@@ -29,12 +29,11 @@ p {
     min-height: 3rem;
     background-color: rgb(255, 168, 233);
     font-size: 1.6rem;
-}
-
-.navbar-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 24rem) {
@@ -46,16 +45,13 @@ p {
 .nav {
     display: flex;
     list-style: none;
-}
-
-.nav-item {
+&-item {
     padding-left: 1rem;
-}
-
-.nav-link {
+  }
+&-link {
     text-decoration: none;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
+    &hover {
+        text-decoration: underline;
+    }
+  }
 }

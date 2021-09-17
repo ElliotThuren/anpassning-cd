@@ -38,7 +38,7 @@
 .cta-right > button {
     font-size: 2rem;
     padding: .8rem;
-    border none;
+    border: none;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
