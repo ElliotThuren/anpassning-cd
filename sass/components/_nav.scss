@@ -27,18 +27,21 @@ p {
 
 .navbar {
     min-height: 3rem;
-    background-color: rgb(255, 168, 233);
+    background-color: #cfcfcf;
     font-size: 1.6rem;
-    &inner {
+    &-inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    &-brand {
+        padding-right: 38%;
     }
 }
 
 @media screen and (max-width: 24rem) {
     .navbar-inner, .nav {
-    flex-direction: column-count ;
+    flex-direction: column-count;
     }
 }
 
@@ -50,7 +53,7 @@ p {
   }
 &-link {
     text-decoration: none;
-    &hover {
+    &:hover {
         text-decoration: underline;
     }
   }

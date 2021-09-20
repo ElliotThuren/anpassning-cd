@@ -30,7 +30,7 @@ p {
   position: relative;
   background-size: cover;
   height: 100%;
-  width: 49%;
+  width: 381px;
 }
 .card-button {
   width: 97%;
@@ -55,16 +55,16 @@ p {
   padding-top: 0.3rem;
 }
 .card1 {
-  background-color: #4ee7e7;
+  background-color: #73e6e6;
 }
 .card2 {
-  background-color: #50eb50;
+  background-color: #7aec7a;
 }
 .card3 {
-  background-color: #2d6dcc;
+  background-color: #5d89ca;
 }
 .card4 {
-  background-color: #eb39eb;
+  background-color: #eb6deb;
 }
 
 .img {
@@ -95,7 +95,7 @@ body {
 
 .cta {
   position: relative;
-  background-image: url(https://picsum.photos/700/500);
+  background-image: url(https://picsum.photos/600/400);
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -170,13 +170,16 @@ p {
 
 .navbar {
   min-height: 3rem;
-  background-color: #ffa8e9;
+  background-color: #cfcfcf;
   font-size: 1.6rem;
 }
-.navbarinner {
+.navbar-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.navbar-brand {
+  padding-right: 38%;
 }
 
 @media screen and (max-width: 24rem) {
@@ -194,7 +197,7 @@ p {
 .nav-link {
   text-decoration: none;
 }
-.nav-linkhover {
+.nav-link:hover {
   text-decoration: underline;
 }
 
